@@ -9,7 +9,7 @@ describe('CONTRACT_DESC_HERE', () => {
 
   describe('FEATURE_DESC', () => {
     beforeEach(async () => {
-      
+      console.log('>> SAMPLE_LOG:', asdf);
     });
 
     it('EXPECTATION_DESC', async () => {

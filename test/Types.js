@@ -14,8 +14,8 @@ describe('Types', () => {
       expect(await contract.boolean1()).to.equal(true);
     });
 
-    it('EXPECTATION_DESC', async () => {
+    // it('EXPECTATION_DESC', async () => {
 
-    });
+    // });
   });
 });
