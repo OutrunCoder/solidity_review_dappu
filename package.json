@@ -4,7 +4,7 @@
   "description": "Intensive look at the Solidity programing language",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:contract": "sh ./shell/test.sh"
   },
   "author": "david.pineda.orvc@gmail.com",
   "license": "ISC",
