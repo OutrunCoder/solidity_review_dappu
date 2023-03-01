@@ -1,15 +1,17 @@
 const { expect } = require('chai');
 const { ethers } = require('hardhat');
 
-describe('CONTRACT_DESC_HERE', () => {
+describe('Types', () => {
   beforeEach(async () => {
-    const ContractFactory = await ethers.getContractFactory('SOL_FILE_HERE');
-    contract = await Contract.deploy();
+    const ContractFactory = await ethers.getContractFactory('Types');
+    contract = await ContractFactory.deploy();
   });
 
-  describe('FEATURE_DESC', () => {
-    beforeEach(async () => {
+  describe('Example1: Booleans', () => {
+    beforeEach(async () => {});
 
+    it('demos boolean values', async () => {
+      expect(await contract.boolean1()).to.equal(true);
     });
 
     it('EXPECTATION_DESC', async () => {

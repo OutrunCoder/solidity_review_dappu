@@ -3,6 +3,8 @@ pragma solidity ^0.8.0;
 
 import "hardhat/console.sol";
 
-contract TemplateContract {
+contract Types {
+  // These are state variables
+  bool public boolean1 = true;
 
 }
