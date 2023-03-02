@@ -12,6 +12,7 @@ describe('Types', () => {
 
     it('demos boolean values', async () => {
       expect(await contract.boolean1()).to.equal(true);
+      expect(await contract.boolean2()).to.equal(false);
     });
 
     // it('EXPECTATION_DESC', async () => {
